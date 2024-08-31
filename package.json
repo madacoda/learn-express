@@ -1,0 +1,23 @@
+{
+  "name": "learn-express",
+  "version": "1.0.0",
+  "description": "Learn Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Hamada",
+  "license": "ISC",
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^5.19.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prisma": "^5.19.0"
+  }
+}
